@@ -1,7 +1,7 @@
 {
   "name": "@tulilabs/tdk",
   "description": "An SDK for using the Tuli Media Protocol",
-  "version": "1.1.2",
+  "version": "1.2.3",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
   "files": [
@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "@tulilabs/auction-house": "^1.1.2",
-    "@tulilabs/core": "^1.1.0",
-    "@tulilabs/media-metadata-schemas": "^0.1.0",
+    "@tulilabs/core": "^1.1.2",
+    "@tulilabs/media-metadata-schemas": "^0.1.1",
     "axios": "^0.21.1",
     "eth-sig-util": "^3.0.0",
     "ethereumjs-util": "^7.0.7",

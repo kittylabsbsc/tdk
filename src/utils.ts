@@ -233,11 +233,17 @@ export function validateAndParseAddress(address: string): string {
  */
 export function chainIdToNetworkName(chainId: number): string {
   switch (chainId) {
-    case 97: {
-      return 'bsctestnet'
+    case 1: {
+      return 'mainnet'
+    }
+    case 4: {
+      return 'rinkeby'
     }
     case 56: {
-      return 'mainnet'
+      return 'bsc'
+    }
+    case 137: {
+      return 'polygon'
     }
   }
 
